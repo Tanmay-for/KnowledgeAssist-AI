@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables
+.env
+
+# Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Local database and uploaded files
+data/chroma_db/
+data/uploads/
+data/documents.json
+data/knowledge_graph/knowledge_graph.json
+
+# Test files
+test_delete.txt
+test_documents/
+
+# IDE
+.vscode/
