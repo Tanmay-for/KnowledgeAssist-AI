@@ -1,26 +1,30 @@
 # Python
 .venv/
+venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
 
 # Environment variables
 .env
+.env.*
+!.env.example
 
 # Frontend
 node_modules/
 frontend/node_modules/
 frontend/dist/
 
-# Local database and uploaded files
+# Local database and uploaded documents
 data/chroma_db/
 data/uploads/
 data/documents.json
-data/knowledge_graph/knowledge_graph.json
+data/knowledge_graph/*.json
 
-# Test files
+# Editor and system files
+.vscode/
+.DS_Store
+Thumbs.db
+# Temporary testing files
 test_delete.txt
 test_documents/
-
-# IDE
-.vscode/
